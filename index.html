@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mahtab Uddin Ahmed — Portfolio</title>
+  <meta name="description" content="Mahtab Uddin Ahmed — Software Engineer. Portfolio, experience, projects and contact." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/favicon.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Mahtab Uddin Ahmed</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Mahtab Uddin Ahmed</h1>
+          <p class="lead">Software Engineer • Full‑stack developer • Problem solver</p>
+          <div class="cta-row">
+            <a class="btn primary" href="mailto:you@example.com">Email</a>
+            <a class="btn outline" href="assets/Resume-Mahtab-Uddin-Ahmed.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+          </div>
+          <ul class="social">
+            <li><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/yourprofile" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://twitter.com/yourprofile" target="_blank" rel="noopener">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="hero-image">
+          <img src="assets/profile.jpg" alt="Mahtab Uddin Ahmed — profile photo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          [Replace this paragraph with a short bio. Example:]
+          I am a software engineer with X years experience building web applications, APIs, and data-driven products. I enjoy working on end-to-end systems, learning new technologies, and shipping polished user experiences.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <h3>Languages</h3>
+            <p>JavaScript, TypeScript, Python, Go</p>
+          </div>
+          <div class="skill">
+            <h3>Frontend</h3>
+            <p>React, Next.js, HTML5, CSS3</p>
+          </div>
+          <div class="skill">
+            <h3>Backend</h3>
+            <p>Node.js, Express, REST, GraphQL</p>
+          </div>
+          <div class="skill">
+            <h3>Databases</h3>
+            <p>Postgres, MongoDB</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <article class="job">
+            <h3>Senior Software Engineer — Company Name</h3>
+            <p class="meta">Location • 2022 — Present</p>
+            <ul>
+              <li>Built X, improving Y by Z%.</li>
+              <li>Led a team of N engineers to deliver product features.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Software Engineer — Another Company</h3>
+            <p class="meta">Location • 2019 — 2022</p>
+            <ul>
+              <li>Worked on front-end and back-end features.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Project One</h3>
+            <p>Short description of the project and technologies used.</p>
+            <p><a href="#" target="_blank" rel="noopener">View project</a></p>
+          </article>
+
+          <article class="project-card">
+            <h3>Project Two</h3>
+            <p>Short description of the project and technologies used.</p>
+            <p><a href="#" target="_blank" rel="noopener">View project</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <p>University Name — Degree, Year</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>If you'd like to work together, email me at <a href="mailto:you@example.com">you@example.com</a> or call <a href="tel:+1234567890">+1 (234) 567‑890</a>.</p>
+
+        <!-- Optional: simple contact form (requires a form backend or Formspree) -->
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form" novalidate>
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn primary">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Mahtab Uddin Ahmed — Built with HTML & CSS</p>
+    </div>
+  </footer>
+
+  <script>
+    // Small script to set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
